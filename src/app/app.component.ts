@@ -8,7 +8,45 @@ import { MatDialog, MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dial
 })
 export class AppComponent {
   title = 'afm-voc';
-  imageSrc: Array<object> = [
+  images20200405: Array<object> = [
+    {
+      image: 'assets/20200405/Slide1.jpg',
+      thumbImage: 'assets/20200405/Slide1.jpg',
+      alt: 'No image',
+      title: 'Slide 1'
+    },
+    {
+      image: 'assets/20200405/Slide2.jpg',
+      thumbImage: 'assets/20200405/Slide2.jpg',
+      alt: 'No image',
+      title: 'Slide 2'
+    },
+    {
+      image: 'assets/20200405/Slide3.jpg',
+      thumbImage: 'assets/20200405/Slide3.jpg',
+      alt: 'No image',
+      title: 'Slide 3'
+    },
+    {
+      image: 'assets/20200405/Slide4.jpg',
+      thumbImage: 'assets/20200405/Slide4.jpg',
+      alt: 'No image',
+      title: 'Slide 4'
+    },
+    {
+      image: 'assets/20200405/Slide5.jpg',
+      thumbImage: 'assets/20200405/Slide5.jpg',
+      alt: 'No image',
+      title: 'Slide 5'
+    },
+    {
+      image: 'assets/20200405/Slide6.jpg',
+      thumbImage: 'assets/20200405/Slide6.jpg',
+      alt: 'No image',
+      title: 'Slide 6'
+    }
+  ];
+  images20200323: Array<object> = [
     {
       image: 'assets/TheLordIsWithYou20200329/Slide1.JPG',
       thumbImage: 'assets/TheLordIsWithYou20200329/Slide1.JPG',
