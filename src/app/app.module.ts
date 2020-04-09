@@ -12,6 +12,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from "@angular/material/input";
 import { NgImageSliderModule } from 'ng-image-slider';
+import { LayoutModule } from '@angular/cdk/layout';
+
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
   ],
   imports: [
     BrowserModule,
+    LayoutModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
