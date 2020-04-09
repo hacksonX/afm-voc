@@ -82,7 +82,7 @@ export class AppComponent {
 
 
   constructor(public dialog: MatDialog) {
-    if(sessionStorage.getItem('showMessage')) {
+    if(!sessionStorage.getItem('showMessage')) {
       this.openDialog();
       sessionStorage.setItem('showMessage','No');
     }
