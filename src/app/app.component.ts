@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MatDialog, MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { $ } from 'protractor';
 
 @Component({
   selector: 'app-root',
@@ -80,11 +81,17 @@ export class AppComponent {
   ] 
 
 
-  constructor(public dialog: MatDialog) {}
+  constructor(public dialog: MatDialog) {
+    if(sessionStorage.getItem('showMessage')) {
+      this.openDialog();
+      sessionStorage.setItem('showMessage','No');
+    }
+  }
 
   openDialog(): void {
     const dialogRef = this.dialog.open(DialogOverviewExampleDialog, {
-      width: '250px',
+      width: '80%',
+      height: '80%',
       data: {name: 'this.name', animal: 'this.animal'}
     });
 
