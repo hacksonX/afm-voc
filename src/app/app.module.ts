@@ -13,6 +13,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from "@angular/material/input";
 import { NgImageSliderModule } from 'ng-image-slider';
 import { LayoutModule } from '@angular/cdk/layout';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -31,7 +33,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     MatDialogModule,
     MatFormFieldModule,
     MatInputModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
