@@ -17,108 +17,108 @@ export class AppComponent implements OnInit {
 
   images20200410: Array<object> = [
     {
-      image: 'assets/TheMockingOfJesus20200410/Slide1.JPG',
-      thumbImage: 'assets/TheMockingOfJesus20200410/Slide1.JPG',
+      image: 'assets/TheMockingOfJesus20200410/Slide1.webp',
+      thumbImage: 'assets/TheMockingOfJesus20200410/Slide1.webp',
       alt: 'No image',
       title: 'Slide 1'
     },
     {
-      image: 'assets/TheMockingOfJesus20200410/Slide2.JPG',
-      thumbImage: 'assets/TheMockingOfJesus20200410/Slide2.JPG',
+      image: 'assets/TheMockingOfJesus20200410/Slide2.webp',
+      thumbImage: 'assets/TheMockingOfJesus20200410/Slide2.webp',
       alt: 'No image',
       title: 'Slide 2'
     },
     {
-      image: 'assets/TheMockingOfJesus20200410/Slide3.JPG',
-      thumbImage: 'assets/TheMockingOfJesus20200410/Slide3.JPG',
+      image: 'assets/TheMockingOfJesus20200410/Slide3.webp',
+      thumbImage: 'assets/TheMockingOfJesus20200410/Slide3.webp',
       alt: 'No image',
       title: 'Slide 3'
     },
     {
-      image: 'assets/TheMockingOfJesus20200410/Slide4.JPG',
-      thumbImage: 'assets/TheMockingOfJesus20200410/Slide4.JPG',
+      image: 'assets/TheMockingOfJesus20200410/Slide4.webp',
+      thumbImage: 'assets/TheMockingOfJesus20200410/Slide4.webp',
       alt: 'No image',
       title: 'Slide 4'
     },
     {
-      image: 'assets/TheMockingOfJesus20200410/Slide5.JPG',
-      thumbImage: 'assets/TheMockingOfJesus20200410/Slide5.JPG',
+      image: 'assets/TheMockingOfJesus20200410/Slide5.webp',
+      thumbImage: 'assets/TheMockingOfJesus20200410/Slide5.webp',
       alt: 'No image',
       title: 'Slide 5'
     },
     {
-      image: 'assets/TheMockingOfJesus20200410/Slide6.JPG',
-      thumbImage: 'assets/TheMockingOfJesus20200410/Slide6.JPG',
+      image: 'assets/TheMockingOfJesus20200410/Slide6.webp',
+      thumbImage: 'assets/TheMockingOfJesus20200410/Slide6.webp',
       alt: 'No image',
       title: 'Slide 6'
     }
   ]
   images20200405: Array<object> = [
     {
-      image: 'assets/20200405/Slide1.jpg',
-      thumbImage: 'assets/20200405/Slide1.jpg',
+      image: 'assets/20200405/Slide1.webp',
+      thumbImage: 'assets/20200405/Slide1.webp',
       alt: 'No image',
       title: 'Slide 1'
     },
     {
-      image: 'assets/20200405/Slide2.jpg',
-      thumbImage: 'assets/20200405/Slide2.jpg',
+      image: 'assets/20200405/Slide2.webp',
+      thumbImage: 'assets/20200405/Slide2.webp',
       alt: 'No image',
       title: 'Slide 2'
     },
     {
-      image: 'assets/20200405/Slide3.jpg',
-      thumbImage: 'assets/20200405/Slide3.jpg',
+      image: 'assets/20200405/Slide3.webp',
+      thumbImage: 'assets/20200405/Slide3.webp',
       alt: 'No image',
       title: 'Slide 3'
     },
     {
-      image: 'assets/20200405/Slide4.jpg',
-      thumbImage: 'assets/20200405/Slide4.jpg',
+      image: 'assets/20200405/Slide4.webp',
+      thumbImage: 'assets/20200405/Slide4.webp',
       alt: 'No image',
       title: 'Slide 4'
     },
     {
-      image: 'assets/20200405/Slide5.jpg',
-      thumbImage: 'assets/20200405/Slide5.jpg',
+      image: 'assets/20200405/Slide5.webp',
+      thumbImage: 'assets/20200405/Slide5.webp',
       alt: 'No image',
       title: 'Slide 5'
     },
     {
-      image: 'assets/20200405/Slide6.jpg',
-      thumbImage: 'assets/20200405/Slide6.jpg',
+      image: 'assets/20200405/Slide6.webp',
+      thumbImage: 'assets/20200405/Slide6.webp',
       alt: 'No image',
       title: 'Slide 6'
     }
   ];
   images20200323: Array<object> = [
     {
-      image: 'assets/TheLordIsWithYou20200329/Slide1.JPG',
-      thumbImage: 'assets/TheLordIsWithYou20200329/Slide1.JPG',
+      image: 'assets/TheLordIsWithYou20200329/Slide1.webp',
+      thumbImage: 'assets/TheLordIsWithYou20200329/Slide1.webp',
       alt: 'No image',
       title: 'Slide 1'
     },
     {
-      image: 'assets/TheLordIsWithYou20200329/Slide2.JPG',
-      thumbImage: 'assets/TheLordIsWithYou20200329/Slide2.JPG',
+      image: 'assets/TheLordIsWithYou20200329/Slide2.webp',
+      thumbImage: 'assets/TheLordIsWithYou20200329/Slide2.webp',
       alt: 'No image',
       title: 'Slide 2'
     },
     {
-      image: 'assets/TheLordIsWithYou20200329/Slide3.JPG',
-      thumbImage: 'assets/TheLordIsWithYou20200329/Slide3.JPG',
+      image: 'assets/TheLordIsWithYou20200329/Slide3.webp',
+      thumbImage: 'assets/TheLordIsWithYou20200329/Slide3.webp',
       alt: 'No image',
       title: 'Slide 3'
     },
     {
-      image: 'assets/TheLordIsWithYou20200329/Slide4.JPG',
-      thumbImage: 'assets/TheLordIsWithYou20200329/Slide4.JPG',
+      image: 'assets/TheLordIsWithYou20200329/Slide4.webp',
+      thumbImage: 'assets/TheLordIsWithYou20200329/Slide4.webp',
       alt: 'No image',
       title: 'Slide 4'
     },
     {
-      image: 'assets/TheLordIsWithYou20200329/Slide5.JPG',
-      thumbImage: 'assets/TheLordIsWithYou20200329/Slide5.JPG',
+      image: 'assets/TheLordIsWithYou20200329/Slide5.webp',
+      thumbImage: 'assets/TheLordIsWithYou20200329/Slide5.webp',
       alt: 'No image',
       title: 'Slide 5'
     }
