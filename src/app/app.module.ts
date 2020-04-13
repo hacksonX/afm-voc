@@ -15,12 +15,14 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { LayoutModule } from '@angular/cdk/layout';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PodcastComponent
+    PodcastComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
