@@ -126,10 +126,7 @@ export class AppComponent implements OnInit {
 
 
   constructor(public dialog: MatDialog, public breakpointObserver: BreakpointObserver) {
-    if (!sessionStorage.getItem('showMessage')) {
-      this.openDialog();
-      sessionStorage.setItem('showMessage', 'No');
-    }
+    
   }
 
   ngOnInit() {
