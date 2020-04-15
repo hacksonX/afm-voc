@@ -75,3 +75,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .example-headers-align .mat-form-field + .mat-form-field {
   margin-left: 8px;
 }
+
+.short-text { display: none; }
+
+@media (max-width: 420px) {
+  .short-text { display: inline-block; }
+  .full-text { display: none; }
+}
