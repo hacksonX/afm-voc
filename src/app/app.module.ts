@@ -15,12 +15,15 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { LayoutModule } from '@angular/cdk/layout';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { AboutComponent } from './about/about.component';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PodcastComponent
+    PodcastComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
@@ -32,6 +35,7 @@ import { environment } from '../environments/environment';
     MatButtonModule,
     MatDialogModule,
     MatFormFieldModule,
+    MatExpansionModule,
     MatInputModule,
     NgImageSliderModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })

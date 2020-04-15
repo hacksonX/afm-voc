@@ -2,8 +2,14 @@
   <div class="mdc-top-app-bar__row">
       <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
         <img class="lazyload" alt="" src="../assets/logo.webp" width="36px" height="36px">
-          <!-- <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button"></button> -->
-          <span class="mdc-top-app-bar__title">AFM - Victory Outreach Center</span>
+          <a [routerLink]="['/home']" style="color: white;">
+            <span class="mdc-top-app-bar__title short-text">AFM - VOC</span>
+            <span class="mdc-top-app-bar__title full-text">AFM - Victory Outreach Center</span>
+          </a>
+          <span class="nav-spacer"></span>
+          <a [routerLink]="['/about']" style="color: white;"><span style="width: 100%; height: 100%;" class="material-icons">
+            info
+            </span>Info</a>
       </section>
   </div>
 </header>
@@ -12,152 +18,15 @@
 <br/>
 
 <div class="container">
+
   <section class="jumbotron text-center">
     <div class="container">
       <h1><b>AFM VOC</b> - Podcast central</h1>
-      <p class="lead text-muted">Beyond the trying times, we have established this as a central place to listen and
-        interact with media that enhances your journey in faith. Listen below and reach out to us if you need something
-        else.</p>
+      <p class="lead text-muted">To our neighbors with an open heart and open hands</p>
     </div>
   </section>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-body" style="min-height: 500px;">
-            <h5 class="card-title" style="font-size: large;">Easter Sunday message</h5>
-            <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">Please join us in celebrating Easter Sunday with Rev Moss Ntlha as he reads from the book of Acts. <b>[Filesize: 31.4MB]</b></p>
-            <div class="d-flex justify-content-between align-items-center">
-              <figure class="btn-group">
-                <video style="max-width: 100%;" class="video-properties" preload="none" poster="../assets/videocast2poster.webp" controls>
-                  <source src="../assets/videocast2.mp4" type="video/mp4">
-                  Your browser does not support the video element.
-                </video>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-body" style="min-height: 500px;">
-            <h5 class="card-title" style="font-size: large;">The first Easter <b>[Filesize: 42.5MB]</b></h5>
-            <div class="d-flex justify-content-between align-items-center">
-              <figure class="btn-group">
-                <video style="max-width: 100%;" class="video-properties" preload="none" poster="../assets/videocast1poster.webp" controls>
-                  <source src="../assets/videocast1.mp4" type="video/mp4">
-                  Your browser does not support the video element.
-                </video>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-body" style="min-height: 500px;">
-            <h5 class="card-title" style="font-size: large;">The mocking of Jesus [Audio]</h5>
-            <img class="lazyload" alt="" mat-card-image src="../assets/easter.webp" style="width: 100%; height: 300px;" />
-            <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">Please find below the message for this week, 10th of April 2020 (Easter). You can also download the message and send to friends, family and fellow believers and non-belivers. <b>[Filesize: 11.7MB]</b> </p>
-            <br><br>
-            <div class="d-flex justify-content-between align-items-center">
-              <figure class="btn-group">
-                <audio style="max-width: 300px; min-width: 200px !important;" controls>
-                  <source src="../assets/podcast5.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-                </audio>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-body" >
-            <h5 class="card-title" style="font-size: large;">The mocking of Jesus [Slides]</h5>
-            <ng-image-slider [imageSize]="imageSliderSize" [images]="images20200410" class="lazyload" alt="" #nav></ng-image-slider>
-            <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">We have compiled this weeks message into pictures. Please click on the pictures above to see today's message in picture form.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-body" style="min-height: 500px;">
-            <h5 class="card-title" style="font-size: large;">Through the valley [Audio]</h5>
-            <img class="lazyload" alt="" mat-card-image src="../assets/podcast4.webp" style="width: 100%; height: 300px;" />
-            <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">Please find below the message for this week, 5th of April 2020. You can also download the message and send to friends, family and fellow believers and non-belivers. <b>[Filesize: 19.9MB]</b> </p>
-            <br/><br>
-            <div class="d-flex justify-content-between align-items-center">
-              <figure class="btn-group">
-                <audio preload="none" style="max-width: 300px; min-width: 200px !important;" controls>
-                  <source src="../assets/podcast20200405.mpeg" type="audio/mpeg">
-                  Your browser does not support the audio element.
-                </audio>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-body" >
-            <h5 class="card-title" style="font-size: large;">Through the valley [Slides]</h5>
-            <ng-image-slider [imageSize]="imageSliderSize" [images]="images20200405" class="lazyload" alt="" #nav></ng-image-slider>
-            <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">We have compiled this weeks message into pictures. Please click on the pictures above to see today's message in picture form.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-body" >
-            <h5 class="card-title" style="font-size: large;">The Lord is with you [Audio]</h5>
-            <img class="lazyload" alt="" mat-card-image src="../assets/podcast1.webp" style="width: 100%; height: 300px;" />
-            <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">Please find below
-              the message for this week, 29th of March 2020. You can also download the message and send to friends,
-              family and fellow believers and non-belivers. <b>[Filesize: 5.5MB]</b> </p>
-              <br><br>
-            <div class="d-flex justify-content-between align-items-center">
-              <figure class="btn-group">
-                <audio preload="none" style="max-width: 300px; min-width: 200px !important;" controls>
-                  <source src="../assets/podcast20200329.mp3" type="audio/mpeg">
-                  Your browser does not support the audio element.
-                </audio>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-body" >
-            <h5 class="card-title" style="font-size: large;">Through the valley [Slides]</h5>
-            <ng-image-slider [imageSize]="imageSliderSize" [images]="images20200323" #nav></ng-image-slider>
-            <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">We have compiled this weeks message into pictures. Please click on the pictures above to see today's message in picture form.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="card mb-4 shadow-sm">
-          <div class="card-body" >
-            <h5 class="card-title" style="font-size: large;">Welcome</h5>
-            <img class="lazyload" alt="" mat-card-image src="../assets/podcast1.webp" style="width: 100%; height: 300px;" />
-            <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">Welcome to the VOC
-              Podcast page. Please listen to a welcome message from our pastor below.<b>[Filesize: 75.6KB]</b></p>
-              <br>
-            <div style="max-width: 250px !important"  class="d-flex justify-content-between align-items-center">
-              <figure class="btn-group">
-                <audio preload="none" controls>
-                  <source src="../assets/welcome.ogg" type="audio/ogg">
-                  Your browser does not support the audio element.
-                </audio>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <router-outlet></router-outlet>
 </div>
 
 <footer class="text-muted">
@@ -165,6 +34,6 @@
     <p class="float-right">
       <a href="#"><button mat-mini-fab color="primary">Top</button></a>
     </p>
-    <p>AFM VOC is based in Meadowlands. Address: 30005 Forbes road ext 11.</p>
+    <a [routerLink]="['/about']">About VOC</a>
   </div>
 </footer>
