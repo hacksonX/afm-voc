@@ -15,6 +15,45 @@ export class PodcastComponent implements OnInit {
     space: 3
   };
 
+  images20200426: Array<object> = [
+    {
+      image: 'assets/Ascribe/SLIDE1.jpg',
+      thumbImage: 'assets/Ascribe/SLIDE1.jpg',
+      alt: 'No image',
+      title: 'SLIDE 1'
+    },
+    {
+      image: 'assets/Ascribe/SLIDE2.jpg',
+      thumbImage: 'assets/Ascribe/SLIDE2.jpg',
+      alt: 'No image',
+      title: 'SLIDE 2'
+    },
+    {
+      image: 'assets/Ascribe/SLIDE3.jpg',
+      thumbImage: 'assets/Ascribe/SLIDE3.jpg',
+      alt: 'No image',
+      title: 'SLIDE 3'
+    },
+    {
+      image: 'assets/Ascribe/SLIDE4.jpg',
+      thumbImage: 'assets/Ascribe/SLIDE4.jpg',
+      alt: 'No image',
+      title: 'SLIDE 4'
+    },
+    {
+      image: 'assets/Ascribe/SLIDE5.jpg',
+      thumbImage: 'assets/Ascribe/SLIDE5.jpg',
+      alt: 'No image',
+      title: 'SLIDE 5'
+    },
+    {
+      image: 'assets/Ascribe/SLIDE6.jpg',
+      thumbImage: 'assets/Ascribe/SLIDE6.jpg',
+      alt: 'No image',
+      title: 'SLIDE 6'
+    }
+  ];
+
   images20200410: Array<object> = [
     {
       image: 'assets/TheMockingOfJesus20200410/Slide1.webp',

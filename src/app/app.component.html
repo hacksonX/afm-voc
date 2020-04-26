@@ -1,21 +1,22 @@
 <header class="mdc-top-app-bar">
   <div class="mdc-top-app-bar__row">
-      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-        <img class="lazyload" alt="" src="../assets/logo.webp" width="36px" height="36px">
-          <a [routerLink]="['/home']" style="color: white;">
-            <span class="mdc-top-app-bar__title short-text">AFM - VOC</span>
-            <span class="mdc-top-app-bar__title full-text">AFM - Victory Outreach Center</span>
-          </a>
-          <span class="nav-spacer"></span>
-          <a [routerLink]="['/about']" style="color: white;"><span style="width: 100%; height: 100%;" class="material-icons">
-            info
-            </span>Info</a>
-      </section>
+    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+      <img class="lazyload" alt="" src="../assets/logo.webp" width="36px" height="36px">
+      <a [routerLink]="['/home']" style="color: white;">
+        <span class="mdc-top-app-bar__title short-text">AFM - VOC</span>
+        <span class="mdc-top-app-bar__title full-text">AFM - Victory Outreach Center</span>
+      </a>
+      <span class="nav-spacer"></span>
+      <a [routerLink]="['/about']" style="color: white;"><span style="width: 100%; height: 100%;"
+          class="material-icons">
+          info
+        </span>Info</a>
+    </section>
   </div>
 </header>
-<br/>
-<br/>
-<br/>
+<br />
+<br />
+<br />
 
 <div class="container">
 
@@ -31,11 +32,40 @@
 
 <footer class="text-muted">
   <div class="container">
-    <p class="float-right">
-      <a href="#"><button mat-mini-fab color="primary"><span class="material-icons">
-        home
-        </span></button></a>
-    </p>
-    <a [routerLink]="['/about']">About VOC</a>
+    <div class="row">
+      <div class="col">
+        <div class="float-left">
+          <a [routerLink]="['/about']">About VOC</a>
+        </div>
+      </div>
+      <div class="col">
+        <!-- <nav aria-label="...">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active">
+              <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav> -->
+      </div>
+      <div class="col">
+        <p class="float-right">
+          <a href="#">
+            <button mat-mini-fab color="primary">
+              <span style="font-size: 24px" class="material-icons">
+                home
+              </span>
+            </button>
+          </a>
+        </p>
+      </div>
+    </div>
   </div>
 </footer>
