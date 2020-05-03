@@ -1,0 +1,17 @@
+<div class="card mb-4 shadow-sm">
+    <div class="card-body" style="min-height: 500px;">
+        <h6 class="card-title" style="font-size: large;"><i>{{videoDate}}</i></h6>
+        <h5 class="card-title" style="font-size: large;">{{videoTitle}} <b>[Video]</b></h5>
+        <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">{{videoDescription}}
+            <b>[Filesize: {{videoSize}}]</b></p>
+        <div class="d-flex justify-content-between align-items-center">
+            <figure class="btn-group">
+                <video style="max-width: 100%;" class="video-properties" preload="none"
+                    poster={{videoPoster}} controls>
+                    <source src={{videoSrc}} type={{videoType}}>
+                    Your browser does not support the video element.
+                </video>
+            </figure>
+        </div>
+    </div>
+</div>

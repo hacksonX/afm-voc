@@ -1,114 +1,62 @@
+<div class="alert alert-primary">
+    Appeal to offering to assist our brethren in need:
+    Deposit offering, any amount into church main account and Reference: Name & surname or initial and surname with OHF
+    at the end short for Open Heart Fund.<br />
+    Bank: <b>ABSA</b><br />
+    Account number: <b>100144964</b><br />
+    Account type: <b>Current (Cheque/Bond) Account</b><br />
+    Reference: <b>Name + Surname + OHF</b><br />
+</div>
 <div class="row">
+
     <div class="col-xs col-md col-lg">
-        <div class="card mb-4 shadow-sm">
-            <div class="card-body" style="min-height: 500px;">
-                <h5 class="card-title" style="font-size: large;">Ascribe praise due to the LORD [Audio]</h5>
-                <img class="lazyload" alt="" mat-card-image src="../assets/praise.jpg"
-                    style="width: 100%; height: 300px;" />
-                <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">Please join us
-                    as our Pastor speaks to us about Ascribing praise that is due to the LORD. Be sure to
-                    download the message and share it with everyone around you. <b>[Filesize:
-                        11.8MB]</b></p>
-                <br><br>
-                <div class="d-flex justify-content-between align-items-center">
-                    <figure class="btn-group">
-                        <audio style="max-width: 300px; min-width: 200px !important;" controls>
-                            <source src="../assets/podcast20200426.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                        </audio>
-                    </figure>
-                </div>
-            </div>
-        </div>
+        <app-audio [audioDate]="'03 May 2020'" [audioTitle]="'WHAT DOES COVID19 TEACH US?'"
+            [audioArt]="'../assets/lady-praise.jpg'" [audioSrc]="'../assets/podcast20200503.mp3'" [audioSize]="'18.7MB'"
+            [audioDescription]="'Please join us as our Pastor speaks to us and details Observations and lessons from COVID19 pandemic. Be sure to download the message and share it with everyone around you.'">
+        </app-audio>
+
     </div>
     <div class="col-xs col-md col-lg">
-        <div class="card mb-4 shadow-sm">
-            <div class="card-body">
-                <h5 class="card-title" style="font-size: large;">Ascribe praise due to the LORD [Slides]</h5>
-                <ng-image-slider [imageSize]="imageSliderSize" [images]="images20200426" #nav></ng-image-slider>
-                <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">We have
-                    compiled this weeks message into pictures. Please click on the pictures above to see today's message
-                    in picture form.</p>
-            </div>
-        </div>
+        <app-slides [slidesDate]="'03 May 2020'" [slidesTitle]="'WHAT DOES COVID19 TEACH US?'"
+            [slideSize]="imageSliderSize" [slideImages]="images20200503"></app-slides>
+    </div>
+
+    <div class="col-xs col-md col-lg">
+        <app-audio [audioDate]="'26 April 2020'" [audioTitle]="'Ascribe praise due to the LORD'"
+            [audioArt]="'../assets/praise.jpg'" [audioSrc]="'../assets/podcast20200426.mp3'" [audioSize]="'11.8MB'"
+            [audioDescription]="'Please join us as our Pastor speaks to us about Ascribing praise that is due to the LORD. Be sure to download the message and share it with everyone around you.'">
+        </app-audio>
+
     </div>
     <div class="col-xs col-md col-lg">
-        <div class="card mb-4 shadow-sm">
-            <div class="card-body" style="min-height: 500px;">
-                <h5 class="card-title" style="font-size: large;">Sermon for April 19, 2020</h5>
-                <img class="lazyload" alt="" mat-card-image src="../assets/prayer.webp"
-                    style="width: 100%; height: 300px;" />
-                <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">Please join us
-                    as our Pastor speaks to us during the pendamic and as he also leads us in prayer. Be sure to
-                    download the message and share it with everyone around you. <b>[Filesize:
-                        11.2MB]</b></p>
-                <br><br>
-                <div class="d-flex justify-content-between align-items-center">
-                    <figure class="btn-group">
-                        <audio style="max-width: 300px; min-width: 200px !important;" controls>
-                            <source src="../assets/podcast20200419.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                        </audio>
-                    </figure>
-                </div>
-            </div>
-        </div>
+        <app-slides [slidesDate]="'26 April 2020'" [slidesTitle]="'Ascribe praise due to the LORD'"
+            [slideSize]="imageSliderSize" [slideImages]="images20200426"></app-slides>
     </div>
     <div class="col-xs col-md col-lg">
-        <div class="card mb-4 shadow-sm">
-            <div class="card-body" style="min-height: 500px;">
-                <h5 class="card-title" style="font-size: large;">Easter Sunday message</h5>
-                <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">Please join us
-                    in celebrating Easter Sunday with Rev Moss Ntlha as he reads from the book of Acts. <b>[Filesize:
-                        31.4MB]</b></p>
-                <div class="d-flex justify-content-between align-items-center">
-                    <figure class="btn-group">
-                        <video style="max-width: 100%;" class="video-properties" preload="none"
-                            poster="../assets/videocast2poster.webp" controls>
-                            <source src="../assets/videocast2.mp4" type="video/mp4">
-                            Your browser does not support the video element.
-                        </video>
-                    </figure>
-                </div>
-            </div>
-        </div>
+        <app-audio [audioDate]="'19 April 2020'" [audioTitle]="'Ascribe praise due to the LORD'"
+            [audioArt]="'../assets/prayer.webp'" [audioSrc]="'../assets/podcast20200419.mp3'" [audioSize]="'11.2MB'"
+            [audioDescription]="'Please join us
+            as our Pastor speaks to us during the pendamic and as he also leads us in prayer. Be sure to
+            download the message and share it with everyone around you.'">
+        </app-audio>
     </div>
     <div class="col-xs col-md col-lg">
-        <div class="card mb-4 shadow-sm">
-            <div class="card-body" style="min-height: 500px;">
-                <h5 class="card-title" style="font-size: large;">The first Easter <b>[Filesize: 42.5MB]</b></h5>
-                <div class="d-flex justify-content-between align-items-center">
-                    <figure class="btn-group">
-                        <video style="max-width: 100%;" class="video-properties" preload="none"
-                            poster="../assets/videocast1poster.webp" controls>
-                            <source src="../assets/videocast1.mp4" type="video/mp4">
-                            Your browser does not support the video element.
-                        </video>
-                    </figure>
-                </div>
-            </div>
-        </div>
+        <app-video [videoDate]="'12 April 2020'" [videoTitle]="'Easter Sunday message'" [videoSize]="'31.4MB'"
+            [videoPoster]="'../assets/videocast2poster.webp'" [videoSrc]="'../assets/videocast2.mp4'"
+            [videoType]="'video/mp4'"
+            [videoDescription]="'Please join us in celebrating Easter Sunday with Rev Moss Ntlha as he reads from the book of Acts.'">
+        </app-video>
     </div>
     <div class="col-xs col-md col-lg">
-        <div class="card mb-4 shadow-sm">
-            <div class="card-body" style="min-height: 500px;">
-                <h5 class="card-title" style="font-size: large;">The mocking of Jesus [Audio]</h5>
-                <img class="lazyload" alt="" mat-card-image src="../assets/easter.webp"
-                    style="width: 100%; height: 300px;" />
-                <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">Please find
-                    below the message for this week, 10th of April 2020 (Easter). You can also download the message and
-                    send to friends, family and fellow believers and non-belivers. <b>[Filesize: 11.7MB]</b> </p>
-                <br><br>
-                <div class="d-flex justify-content-between align-items-center">
-                    <figure class="btn-group">
-                        <audio style="max-width: 300px; min-width: 200px !important;" controls>
-                            <source src="../assets/podcast5.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                        </audio>
-                    </figure>
-                </div>
-            </div>
-        </div>
+        <app-video [videoDate]="'11 April 2020'" [videoTitle]="'The first Easter'" [videoSize]="'42.5MB'"
+            [videoPoster]="'../assets/videocast1poster.webp'" [videoSrc]="'../assets/videocast1.mp4'"
+            [videoType]="'video/mp4'" [videoDescription]="'Please join us for our Easter Saturday message'"></app-video>
+    </div>
+    <div class="col-xs col-md col-lg">
+        <app-audio [audioDate]="'10 April 2020'" [audioTitle]="'The mocking of Jesus'"
+            [audioArt]="'../assets/easter.webp'" [audioSrc]="'../assets/podcast5.mp3'" [audioSize]="'11.7MB'"
+            [audioDescription]="'Please find below the message for this years Good Friday service. You can also download the message and send to friends, family and fellow believers and non-belivers.'">
+        </app-audio>
     </div>
     <div class="col-xs col-md col-lg">
         <div class="card mb-4 shadow-sm">

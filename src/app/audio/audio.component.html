@@ -1,0 +1,18 @@
+<div class="card mb-4 shadow-sm">
+    <div class="card-body" style="min-height: 500px;">
+        <h6 class="card-title" style="font-size: large;"><i>{{audioDate}}</i></h6>
+        <h3 class="card-title" style="font-size: large;">{{audioTitle}} <b>[Audio]</b></h3>
+        <img class="lazyload" alt="" mat-card-image src={{audioArt}} style="width: 100%; height: 300px;" />
+        <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">
+            {{audioDescription}} <b>[Filesize: {{audioSize}}]</b></p>
+        <br><br>
+        <div class="d-flex justify-content-between align-items-center">
+            <figure class="btn-group">
+                <audio style="max-width: 300px; min-width: 200px !important;" controls>
+                    <source src={{audioSrc}} type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </figure>
+        </div>
+    </div>
+</div>

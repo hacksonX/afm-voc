@@ -17,13 +17,19 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { AboutComponent } from './about/about.component';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { AudioComponent } from './audio/audio.component';
+import { SlidesComponent } from './slides/slides.component';
+import { VideoComponent } from './video/video.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PodcastComponent,
-    AboutComponent
+    AboutComponent,
+    AudioComponent,
+    SlidesComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
