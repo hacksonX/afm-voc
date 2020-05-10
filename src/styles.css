@@ -82,3 +82,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   .short-text { display: inline-block; }
   .full-text { display: none; }
 }
+
+.mat-form-field {
+  margin-right: 8px;
+}

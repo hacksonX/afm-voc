@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-about',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  constructor(private domSanitizer: DomSanitizer) { }
 
   ngOnInit(): void {
+
+  }
+
+  getPic() {
+    return this.domSanitizer.bypassSecurityTrustResourceUrl('https://media.swncdn.com/cms/CW/Couples/singles/52334-praising-god-1200.jpg');
   }
 
 }
