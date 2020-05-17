@@ -33,6 +33,7 @@
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "material-components-web": "^5.1.0",
+    "moment": "^2.25.3",
     "nativescript": "^6.4.1",
     "ng-block-ui": "^2.1.8",
     "ng-image-slider": "^2.4.1",

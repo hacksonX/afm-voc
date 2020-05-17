@@ -21,6 +21,9 @@ import { AudioComponent } from './audio/audio.component';
 import { SlidesComponent } from './slides/slides.component';
 import { VideoComponent } from './video/video.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { AnnouncementComponent } from './announcement/announcement.component';
+import { MatBadgeModule } from '@angular/material/badge';
+import { CommonModule } from '@angular/common';
 
 
 @NgModule({
@@ -30,10 +33,12 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     AboutComponent,
     AudioComponent,
     SlidesComponent,
-    VideoComponent
+    VideoComponent,
+    AnnouncementComponent
   ],
   imports: [
     BrowserModule,
+    CommonModule,
     LayoutModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -46,6 +51,7 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     MatInputModule,
     NgImageSliderModule,
     MatSnackBarModule,
+    MatBadgeModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
