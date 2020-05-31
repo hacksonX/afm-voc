@@ -24,6 +24,9 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { AnnouncementComponent } from './announcement/announcement.component';
 import { MatBadgeModule } from '@angular/material/badge';
 import { CommonModule } from '@angular/common';
+import { MarchComponent } from './march/march.component';
+import { AprilComponent } from './april/april.component';
+import { MayComponent } from './may/may.component';
 
 
 @NgModule({
@@ -34,7 +37,10 @@ import { CommonModule } from '@angular/common';
     AudioComponent,
     SlidesComponent,
     VideoComponent,
-    AnnouncementComponent
+    AnnouncementComponent,
+    MarchComponent,
+    AprilComponent,
+    MayComponent
   ],
   imports: [
     BrowserModule,
