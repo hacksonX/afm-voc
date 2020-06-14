@@ -5,10 +5,11 @@ import { PodcastComponent } from './podcast/podcast.component';
 import { AprilComponent } from './april/april.component';
 import { MayComponent } from './may/may.component';
 import { MarchComponent } from './march/march.component';
+import { JuneComponent } from './june/june.component';
 
 const routes: Routes = [
   {
-    path: '', component: MayComponent
+    path: '', component: JuneComponent
   },
   {
     path: 'home', component: PodcastComponent
@@ -24,6 +25,9 @@ const routes: Routes = [
   },
   {
     path: 'may', component: MayComponent
+  },
+  {
+    path: 'june', component: JuneComponent
   }
 ];
 

@@ -58,7 +58,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     min-height: 550px !important;
   }
 
-  .nav-spacer {
+.nav-spacer {
     flex: 1 1 auto;
   }
 

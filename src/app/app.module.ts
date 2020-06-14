@@ -27,6 +27,7 @@ import { CommonModule } from '@angular/common';
 import { MarchComponent } from './march/march.component';
 import { AprilComponent } from './april/april.component';
 import { MayComponent } from './may/may.component';
+import { JuneComponent } from './june/june.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { MayComponent } from './may/may.component';
     AnnouncementComponent,
     MarchComponent,
     AprilComponent,
-    MayComponent
+    MayComponent,
+    JuneComponent
   ],
   imports: [
     BrowserModule,

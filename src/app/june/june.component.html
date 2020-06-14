@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-xs col-md col-lg">
+        <app-audio [audioDate]="'14 June 2020'" [audioTitle]="'Look to the rock'"
+            [audioArt]="'../assets/rock-of-Jesus.jpg'" [audioSrc]="'../assets/podcast20200614.mp3'" [audioSize]="'21MB'"
+            [audioDescription]="'Please join us as Pastor Kekana speaks to us about looking to the Rock during all times'">
+        </app-audio>
+    </div>
+    <div class="col-xs col-md col-lg">
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title" style="font-size: large;">14 June 2020</h5>
+                <h5 class="card-title" style="font-size: large;">Look to the rock [Slides]</h5><br>
+                <ng-image-slider [imageSize]="imageSliderSize" [images]="images20200614" class="lazyload" alt="" #nav>
+                </ng-image-slider>
+                <p class="card-text pt-2 font-weight-normal" style="min-height: 80px; max-height: 80px;">We have
+                    compiled this weeks message into pictures. Please click on the pictures above to see today's message
+                    in picture form.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs col-md col-lg">
+        <app-audio [audioDate]="'07 June 2020'" [audioTitle]="'What does God say about Racists'"
+            [audioArt]="'../assets/lean.jpg'" [audioSrc]="'../assets/podcast20200607.mpeg'" [audioSize]="'11.7MB'"
+            [audioDescription]="'Please join us as Pastor Kekana speaks to us about Racism though the gospel'">
+        </app-audio>
+    </div>
+</div>
